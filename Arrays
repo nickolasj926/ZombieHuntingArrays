@@ -1,0 +1,12 @@
+public class ZombieHunting{
+    public static void main(String args[]) {
+      System.out.println("Welcome to the Zombie hunting program!");
+      String bag[] = {"Shotgun", "AR", "Sniper"};
+      String zombies[] = {"close-range zombies", "mid-range zombies", "long-range zombies"};
+      
+      System.out.println("Look! There are two " + zombies[0] + "!" + " Grab your " + bag[0] + "!");
+      System.out.println("Good job! You eliminated them.");
+      System.out.println("Wait there are four " + zombies[2] + " in the field to your left!" + " You will need your " + bag[2] + " to get them!");
+      System.out.println("Nice! That's all the zombies... for now!");
+    }
+}
