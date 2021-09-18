@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class ZombieHunting{
     public static void main(String args[]) {
       System.out.println("Welcome to the Zombie hunting program!");
